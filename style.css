@@ -1,7 +1,8 @@
 body {
     margin: 0;
     font-family: 'Cairo', sans-serif;
-    background: linear-gradient( #554555, #413e64, #2e2e61);
+  background: linear-gradient( to right, #1499aa, #3290cf, #66e7e1) ,transparent;
+   
     color: white;
     overflow-x: hidden;
     
@@ -135,17 +136,29 @@ font-size: 20px;
     transform: scale(1.2);
   }
 
-/*  .social-icons img {
+
+
+
+
+
+
+  .social-icons img {
     width: 30px;
-    margin-right: 10px;
+    margin-right: 40px;
+    margin-top: 10px;
+    margin-bottom: 0%;
     filter: brightness(0.8);
-    transition: 0.3s ease;
+    transition: 0.1s ease;
+    
+   
   }
 
   .social-icons img:hover {
-    filter: brightness(1.2);
-  }*/
-
+    filter: brightness(3);
+    transform: scale(2);
+  animation: plo 1s infinite alternate;
+  
+}
 
 
   
@@ -290,8 +303,8 @@ flex-direction: column;
 margin-top: 20px;
   }
 
-}*/
-
+}
+*/
 
   .light-dot {
 
