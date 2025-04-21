@@ -4,6 +4,8 @@ body {
     background: linear-gradient( #554555, #413e64, #2e2e61);
     color: white;
     overflow-x: hidden;
+
+    
     
   }
 
@@ -27,7 +29,22 @@ body {
     align-items: center;
     gap: 40px;
   }
+.nav{
+  margin-top: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+    
+  }
 
+  @media(max-width:768){
+    .header{
+      flex-direction: column;
+      align-items: center;
+    }
+.nav{
+  margin-top: 15px;
+}
+  }
   .profile img {
     width: 100px;
     height: 100px;
@@ -215,6 +232,11 @@ width: 40%;
     border-radius: 8px;
     transition: transform 1s ease;
 z-index: 102;
+  }
+@media(max-width:60px){
+    .scrolling-wrapper .aa{
+      max-width: 100%;
+    }
   }
  
 
